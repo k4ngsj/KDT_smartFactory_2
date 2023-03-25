@@ -31,7 +31,7 @@ void sil2()
     int n;
     std::cout << "1부터 n까지의 합 구하기\n숫자(양의 정수)를 입력하세요 : ";
     std::cin >> n;
-    std::cout << "1부터 " << n << "까지의 합은 : " << n * (n - 1) / 2<<"\n";
+    std::cout << "1부터 " << n << "까지의 합은 : " << n * (n + 1) / 2<<"\n";
 }
 
 void whileGugudan(int n)
@@ -65,7 +65,7 @@ void sil3_2()
     int n;
     std::cout << "1부터 n까지의 합 구하기\n숫자(양의 정수)를 입력하세요 : ";
     std::cin >> n;
-    std::cout << "1부터 " << n << "까지의 합은 : " << n * (n - 1) / 2 << "\n";
+    std::cout << "1부터 " << n << "까지의 합은 : " << n * (n + 1) / 2 << "\n";
 }
 void sil3()
 {
@@ -108,7 +108,7 @@ void sil5()
 int main()
 {
     //std::cout << "Hello World!\n";
-    sil1();
+    //sil1();
     sil2();
     sil3();
     sil4();
